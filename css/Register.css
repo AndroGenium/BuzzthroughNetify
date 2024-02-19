@@ -1,0 +1,169 @@
+.body {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RegisterEnter {
+  width: fit-content;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+}
+.RegisterEnter .RegisterEvent {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  height: fit-content;
+  gap: 20px;
+  align-items: flex-start;
+}
+.RegisterEnter .RegisterEvent .EventTiny {
+  font-size: 13px;
+}
+.RegisterEnter .RegisterEvent .EventHeader {
+  font-size: 58px;
+}
+
+.RegisterIMG {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0 50px;
+}
+
+.RegisterTime {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.RegisterTime .TimeBig {
+  font-size: 34px;
+}
+
+.AboutTheEvent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.AboutTheEvent button {
+  margin-top: 20px;
+}
+
+.TimeBig {
+  font-size: 34px;
+}
+
+.TimeSmall {
+  font-size: 14px;
+}
+
+.RegisterShare {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.RegisterShare button {
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 150px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: flex-start;
+  padding: 20px;
+  width: fit-content;
+  color: white;
+}
+form h1 {
+  font-size: 48px;
+}
+form .FormEmail {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 100%;
+}
+form .FormEmail input {
+  width: 100%;
+  height: 48px;
+}
+form .FormCname {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 100%;
+}
+form .FormCname input {
+  width: 100%;
+  height: 48px;
+}
+form .FormCountry {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 100%;
+}
+form .FormCountry input {
+  width: 100%;
+  height: 48px;
+}
+form .FormName {
+  height: fit-content;
+  display: flex;
+  gap: 30px;
+}
+form .FormName .FirstName {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form .FormName .FirstName label {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+form .FormName .FirstName input {
+  width: 260px;
+  height: 48px;
+}
+form .FormName .LastName {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form .FormName .LastName input {
+  width: 260px;
+  height: 48px;
+}
+form .FormName .LastName label {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+form input {
+  color: white;
+  border: 1px solid white;
+}
+
+label {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.FormSubmit {
+  width: 100%;
+  margin-top: 20px;
+}
